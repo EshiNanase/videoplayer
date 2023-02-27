@@ -10,7 +10,7 @@
 
 Рабочий пример:
 
-- [https://eshinanase.github.io/videoplayer/](videoplayer)
+- [[https://eshinanase.github.io/videoplayer/](videoplayer)](https://eshinanase.github.io/videoplayer/)
 
 ## Как подключить
 
