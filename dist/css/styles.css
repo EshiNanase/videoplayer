@@ -8,10 +8,26 @@
   cursor: pointer;
   background-color: transparent;
 }
+.js-mute-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.js-volume-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
 .fa-play{
   color: white;
 }
 .fa-pause{
+  color: white;
+}
+.fa-volume-up{
+  color: white;
+}
+.fa-volume-off{
   color: white;
 }
 .black-panel{
@@ -20,8 +36,12 @@
 .player{
   width: 800px;
   height: 600px;
+  box-shadow: 0px 0px 15px 10px grey;
+  display: flex;
+  flex-direction: column;
 }
 .js-video-container{
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
