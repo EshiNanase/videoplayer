@@ -11,46 +11,9 @@
 .vp-videoplayer-buttons{
   background-color: black;
   display: flex;
-  height: 80px;
   align-items: center;
 }
-.vp-videoplayer-play-button{
-  border-style: none;
-  cursor: pointer;
-  background-color: transparent;
-  width: 35px;
-  height: 35px;
-  font-size: 20px;
-  color: white;
-}
-.vp-videoplayer-pause-button{
-  border-style: none;
-  cursor: pointer;
-  background-color: transparent;
-  width: 35px;
-  height: 35px;
-  font-size: 20px;
-  color: white;
-}
-.vp-videoplayer-mute-button{
-  border-style: none;
-  cursor: pointer;
-  background-color: transparent;
-  width: 35px;
-  height: 35px;
-  font-size: 20px;
-  color: white;
-}
-.vp-videoplayer-volume-button{
-  border-style: none;
-  cursor: pointer;
-  background-color: transparent;
-  width: 35px;
-  height: 35px;
-  font-size: 20px;
-  color: white;
-}
-.vp-videoplayer-fullscreen-button{
+.vp-videoplayer-every-button{
   border-style: none;
   cursor: pointer;
   background-color: transparent;
