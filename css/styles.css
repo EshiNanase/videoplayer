@@ -1,28 +1,64 @@
-.black-panel{
-  background-color: black;
-}
-.blank-panel{
-  display: inline-block;
-  width: 80%
-}
-.player{
+.vp-videoplayer-container{
   width: 800px;
   height: 600px;
   box-shadow: 0px 0px 15px 10px grey;
   display: flex;
   flex-direction: column;
 }
-.js-video-container{
-  display: flex;
-  flex-direction: column;
+.vp-videoplayer{
   flex-grow: 1;
 }
-button{
+.vp-videoplayer-buttons{
+  background-color: black;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.vp-videoplayer-play-button{
   border-style: none;
   cursor: pointer;
   background-color: transparent;
-}
-i{
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
   color: white;
-  margin: 5px;
+}
+.vp-videoplayer-mute-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+}
+.vp-videoplayer-mute-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+}
+.vp-videoplayer-volume-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+}
+.vp-videoplayer-fullscreen-button{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+}
+.vp-videoplayer-blank-panel{
+  flex-grow: 1;
 }
