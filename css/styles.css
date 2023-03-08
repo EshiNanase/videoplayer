@@ -70,3 +70,13 @@
   transition-duration: 300ms;
   transition-timing-function: ease-in;
 }
+.vp-videoplayer-every-button:focus{
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 36px;
+  height: 45.5px;
+  font-size: 20px;
+  color: white;
+  margin-top: -3px;
+}
