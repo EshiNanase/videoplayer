@@ -17,11 +17,39 @@
   border-style: none;
   cursor: pointer;
   background-color: transparent;
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 45.5px;
   font-size: 20px;
   color: white;
+  margin-top: -3px;
 }
 .vp-videoplayer-blank-panel{
   flex-grow: 1;
+}
+.vp-videoplayer-time{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-left: 2px;
+}
+.vp-videoplayer-progress{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.vp-videoplayer-slider{
+  background-color: red;
+  height: 5px;
+  border-radius: 50px;
+  align-self: center;
+}
+.vp-videoplayer-dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
+  background-color: red;
+  margin-left: -5px;
 }

@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="ico/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="vp-videoplayer-container" id="vp-videoplayer-container">
@@ -24,7 +27,15 @@
   <button class="vp-videoplayer-every-button js-volume-button">
     <i class="fa fa-volume-off" aria-hidden="true"></i>
   </button>
-  <div class="vp-videoplayer-blank-panel"></div>
+  <span class="vp-videoplayer-time js-current-time"></span>
+
+  <div class="vp-videoplayer-blank-panel">
+    <div class="vp-videoplayer-progress js-progress">
+        <div class="vp-videoplayer-slider js-progress-slider"></div>
+        <div class="vp-videoplayer-dot"></div>
+    </div>
+  </div>
+  <span class="vp-videoplayer-time js-duration"></span>
   <button class ="vp-videoplayer-every-button js-fullscreen-button">
     <i class="fa fa-expand" aria-hidden="true"></i>
   </button>
