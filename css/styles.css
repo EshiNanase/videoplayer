@@ -38,6 +38,7 @@ body{
   margin-left: 2px;
 }
 .vp-videoplayer-progress{
+  cursor: pointer;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
