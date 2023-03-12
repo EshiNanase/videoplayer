@@ -1,3 +1,6 @@
+body{
+  font-size: 50px;
+}
 .vp-videoplayer-container{
   width: 800px;
   height: 600px;
@@ -23,25 +26,28 @@
   color: white;
   margin-top: -3px;
 }
-.vp-videoplayer-blank-panel{
+.vp-videoplayer-progress-bar{
+  display: flex;
+  align-items: center;
   flex-grow: 1;
 }
 .vp-videoplayer-time{
   font-family: 'Roboto', sans-serif;
   color: white;
+  font-size: 16px;
   margin-left: 2px;
 }
 .vp-videoplayer-progress{
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  flex-grow: 1;
 }
 .vp-videoplayer-slider{
   background-color: red;
   height: 5px;
   border-radius: 50px;
-  align-self: center;
 }
 .vp-videoplayer-dot {
   height: 8px;
